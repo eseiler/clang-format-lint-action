@@ -2,7 +2,7 @@ name: 'clang-format lint'
 author: 'Slobodan Kletnikov (DoozyX)'
 description: 'Github Action that check if code is formatted correctly using clang-format'
 branding:
-  icon: 'align-left'  
+  icon: 'align-left'
   color: 'green'
 inputs:
   source:
@@ -20,7 +20,7 @@ inputs:
   clangFormatVersion:
     description: 'Version of clang-format'
     required: false
-    default: '17'
+    default: '18'
   style:
     description: 'Formatting style to use'
     required: false
